@@ -10,7 +10,7 @@
 }
 
 body {
-  color:var(--main-text-color)
+  color: var(--main-text-color);
 
   font-family: var(--primery-font-family);
   font-size: 14px;
@@ -24,8 +24,8 @@ Header section
 ==============
 */
 .logo.link {
-  color:var(--accent-color);
-  font-family:var(--secondary-font-family);
+  color: var(--accent-color);
+  font-family: var(--secondary-font-family);
   font-size: 26px;
   font-weight: 700;
   line-height: normal;
@@ -47,12 +47,21 @@ Header section
   text-decoration: none;
 }
 
-.link.header {
-  color:var(--secondary-text-color);
+.link.current {
+  color: var(--accent-color);
 }
 
-.link.footer{
-  color:rgba(255, 255, 255, 0.60);
+.link.header {
+  color: var(--secondary-text-color);
+}
+
+.link.footer {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
 
 .link:hover,
@@ -60,6 +69,10 @@ Header section
   color: var(--accent-color);
 }
 
+.site-nav,
+.contact {
+  list-style-type: none;
+}
 /* 
 ============
 Hero section
@@ -81,6 +94,8 @@ Hero section
 }
 
 .hero.btn {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -89,14 +104,14 @@ Hero section
 }
 
 .filter.btn {
-  color:var(--main-text-color);
-background-color: #F5F4FA;
+  color: var(--main-text-color);
+  background-color: #f5f4fa;
 
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.62; 
-letter-spacing: 0.48px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.48px;
 }
 
 .btn:hover,
@@ -116,7 +131,6 @@ Feature section
 }
 
 .feature .title {
-
   font-size: 14px;
   font-weight: 700;
   line-height: normal;
@@ -130,6 +144,10 @@ Feature section
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.42px;
+}
+
+.feature-list {
+  list-style-type: none;
 }
 
 /* 
@@ -150,7 +168,7 @@ About section
 }
 
 .about-list {
-  list-style: none;
+  list-style-type: none;
 }
 
 /* 
@@ -160,36 +178,34 @@ Team Card section
 */
 
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-item {
-  list-style: none;
+  list-style-type: none;
 }
 
 .team-title {
-font-size: 36px;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 
-.team-item> .title {
-color:var(--main-text-color);
-font-size: 16px;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.48px;
+.team-item > .title {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 
-.team-item> .subtitle {
-color:var(--secondary-text-color);
-font-size: 16px;
-line-height: normal;
-letter-spacing: 0.48px;
+.team-item > .subtitle {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
-
-
 
 /* 
 ==============
@@ -198,15 +214,20 @@ Footer section
 */
 
 .footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .logo-footer {
-  color:var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .address {
-color:var(--title-text-color) ;
+  color: var(--title-text-color);
+
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
 }
 
 /* 
@@ -215,21 +236,25 @@ Portfolio page
 =========
 */
 
-.portfolio .title {
-color:var(--main-text-color);
+.filter-list {
+  list-style-type: none;
+}
 
-font-size: 18px;
-font-weight: 700;
-line-height: 2; 
-letter-spacing: 1.08px;
+.portfolio .title {
+  color: var(--main-text-color);
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
 }
 
 .portfolio .subtitle {
-color:var(--secondary-text-color);
+  color: var(--secondary-text-color);
 
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.48px;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.48px;
 }
 
 .portfolio {
@@ -237,5 +262,5 @@ letter-spacing: 0.48px;
 }
 
 .portfolio-list {
-  list-style: none;
+  list-style-type: none;
 }
